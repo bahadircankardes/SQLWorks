@@ -104,12 +104,35 @@ order by Ciro desc
 --order_details-order_id, unit_price, quantity ,product_id
 --products- product_id, supplier_id
 --suppliers- supplier_id, company_name
-select o.order_id SiparisNo, round(sum (od.unit_price * od. quantity)) Ciro, s.company_name Tedarikci 
+select o.order_id SiparisNo, round(sum (od.unit_price * od. quantity)) Ciro
+from orders o
+inner join order_details od on od.order_id = o.order_id
+inner join products p on p.product_id = od.product_id
+--inner join suppliers s on s.supplier_id = p.supplier_id
+where o.required_date < o.shipped_date
+group by SiparisNo
+order by ciro desc
+
+--order-order_id, required_date, ship_date
+--order_details-order_id, unit_price, quantity ,product_id
+--products- product_id, supplier_id
+--suppliers- supplier_id, company_name
+
+select o.order_id SiparisNo, p.product_name UrunAdi, s.company_name Tedarikci
 from orders o
 inner join order_details od on od.order_id = o.order_id
 inner join products p on p.product_id = od.product_id
 inner join suppliers s on s.supplier_id = p.supplier_id
 where o.required_date < o.shipped_date
-group by SiparisNo, Tedarikci
-order by ciro desc
+group by Tedarikci, SiparisNo, UrunAdi
+
 -- 5- Ulkelere gore ciro dagilimlari 
+    -- customer customer_id-county,
+    -- order_details-order_id-unit_price-quantity
+    -- order-order_id-customer_id
+
+    select c.country Ulke, round(sum(od.unit_price * quantity)) Ciro
+    from orders o
+    inner join customers c on c.customer_id = o.customer_id
+    inner join order_details od on od.order_id = o.order_id
+    group by Ulke
