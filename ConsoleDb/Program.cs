@@ -36,6 +36,8 @@ class Program
                 conn.Close();
 
             Console.WriteLine("Hello");
+
+            Console.WriteLine("Hello");
         }
 
 
