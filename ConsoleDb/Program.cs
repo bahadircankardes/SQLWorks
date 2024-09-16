@@ -34,7 +34,6 @@ class Program
         {
             if (conn.State == System.Data.ConnectionState.Open)
                 conn.Close();
-            Console.WriteLine("Hwllo");
         }
 
 
