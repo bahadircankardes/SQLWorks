@@ -37,7 +37,7 @@ class Program
 
             Console.WriteLine("Hello");
 
-            //Console.WriteLine("Hello");
+            Console.WriteLine("Hello");
         }
 
         #region ADO.NET Nesneleri
