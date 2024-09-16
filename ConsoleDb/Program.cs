@@ -59,9 +59,21 @@ class Program
 
         #region ExecuteScaler Metodu: count veya sum tarzı sorgularda
         //Eger tek bir sonuc donuyor ıse ExecuteScaler() metodu kullanilir.
+        /*
+         command.CommandText = sql;
+        conn.Open();
+        var sonuc = command.ExecuteScaler();
+        Console.WriteLine(sonuc);
+        conn.Close();
 
+         */
 
+        #endregion
 
+        #region EntityFrameWork mantigi
+
+        //Listelerle calisir. Listelere eklenen herbir obje icin insert,
+        // degisikliklerde update, remove islemlerinde delete sorgularini calistirir.
 
         #endregion
 
