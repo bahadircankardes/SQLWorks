@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FmGwrtWgfV6GL6Zw7PruJ3PDeDxh+FS244RMsSHJqcsiSJoQGZqluFAJWD52zyYXEAgq68vH37DcwYbMUDAR2A==",
+  "success": true,
+  "projectFilePath": "/Users/bahadircankardes/source/repos/Wissen2024/SQLWorks/PostgreDbVS/ConsoleDb/ConsoleSqlite/ConsoleSqlite.csproj",
+  "expectedPackageFiles": [
+    "/Users/bahadircankardes/.nuget/packages/stub.system.data.sqlite.core.netstandard/1.0.118/stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/system.data.sqlite.core/1.0.118/system.data.sqlite.core.1.0.118.nupkg.sha512"
+  ],
+  "logs": []
+}
