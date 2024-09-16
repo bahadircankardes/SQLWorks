@@ -40,6 +40,31 @@ class Program
             //Console.WriteLine("Hello");
         }
 
+        #region ADO.NET Nesneleri
+
+        /*Ado.net felsefesinde oncelikli olarak SqlConnection oluşturulmalidir.
+         * 1-SqlConnection parametre olarak bir connection string alir. 
+         * Sql connection bir cesit koprudur.
+         * 
+         * 2-SqlCommand: SqlConnection olmadan bu nesnenin bir anlami yoktur.
+           Verilen Sql komutlarini calistirmaya yarar. Eger Select Cumlesi varsa
+           ExecuteReader metodu calistirilir.
+           eger Crud (Create, Update, Delete) islemleri yapilacak ise ExecuteNonQuery()
+           metodu calistirilmalidir.
+
+        */
+
+        #endregion
+
+
+        #region ExecuteScaler Metodu: count veya sum tarzı sorgularda
+        //Eger tek bir sonuc donuyor ıse ExecuteScaler() metodu kullanilir.
+
+
+
+
+        #endregion
+
 
 
     }
