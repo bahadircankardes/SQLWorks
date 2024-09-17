@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDb", "ConsoleDb\ConsoleDb.csproj", "{68DF3447-64C9-4A6D-B3C5-00FAD92E24D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSqlite", "ConsoleSqlite\ConsoleSqlite.csproj", "{F8AC1CC9-2B47-40D5-9E46-DE81A5054EFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68DF3447-64C9-4A6D-B3C5-00FAD92E24D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DF3447-64C9-4A6D-B3C5-00FAD92E24D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DF3447-64C9-4A6D-B3C5-00FAD92E24D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DF3447-64C9-4A6D-B3C5-00FAD92E24D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8AC1CC9-2B47-40D5-9E46-DE81A5054EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AC1CC9-2B47-40D5-9E46-DE81A5054EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AC1CC9-2B47-40D5-9E46-DE81A5054EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AC1CC9-2B47-40D5-9E46-DE81A5054EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A41A14-18AB-4893-9DCC-BA5901423A4A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "1BHLGfxM5si2uNWxeubxnAGvmeVUvXCHegkZAVVPpP8Ngy12yudcpD/AV8bhVxqijOvHkz5+6us9Ca1qD/aSmA==",
+  "success": true,
+  "projectFilePath": "/Users/bahadircankardes/source/repos/Wissen2024/SQLWorks/PostgreDbVS/ConsoleDb/ConsoleSqlite/ConsoleSqlite.csproj",
+  "expectedPackageFiles": [
+    "/Users/bahadircankardes/.nuget/packages/microsoft.data.sqlite/8.0.8/microsoft.data.sqlite.8.0.8.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/microsoft.data.sqlite.core/8.0.8/microsoft.data.sqlite.core.8.0.8.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/sqlitepclraw.bundle_sqlite3/2.1.10/sqlitepclraw.bundle_sqlite3.2.1.10.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/sqlitepclraw.provider.sqlite3/2.1.10/sqlitepclraw.provider.sqlite3.2.1.10.nupkg.sha512",
+    "/Users/bahadircankardes/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
