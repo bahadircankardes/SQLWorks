@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.Sqlite;
+
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleSqlite;
@@ -13,11 +14,17 @@ class Program
         SqliteConnection conn = new SqliteConnection(constr);
         conn.Open();
         string sql = "insert into Categories (CategoryName,Description,CreateDate)";
-        sql = sql + "values('Gida', 'Yeme Icme', '01.01.2024')";
+        sql = sql + "values('Temizlik', 'Camasir Suyu', '01.03.2024')";
         SqliteCommand cmd = new SqliteCommand(sql, conn);
         cmd.ExecuteNonQuery();
         conn.Close();
-        
+
+        conn.Open();
+        sql = sql + "values('Giyim', 'Gomlek', '01.02.2024')";
+        cmd.ExecuteNonQuery();
+        conn.Close();
+
+
 
 
     }
